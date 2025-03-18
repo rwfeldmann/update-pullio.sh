@@ -1,6 +1,7 @@
 #!/bin/sh -e
 
 # Update pullio script
+# Docs at: https://hotio.dev/scripts/pullio/
 curl -fsSL "https://raw.githubusercontent.com/hotio/pullio/master/pullio.sh" -o /usr/local/bin/pullio
 
 EXITVALUE=$?
